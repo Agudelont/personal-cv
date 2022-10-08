@@ -1,0 +1,39 @@
+/*
+Bem Gudelines
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+#side-bar {
+    background-color: yellow;
+    flex: 2;
+}
+
+#main {
+    background-color: green;
+    flex: 9;
+}
+
+#main > .banner-wrapper {
+    height: 320px;
+    width: 100%;
+    background-color: bisque;
+}
+
+#right-menu {
+    background-color: red;
+    flex: 1;
+}
