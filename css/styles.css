@@ -4,6 +4,7 @@ Bem Gudelines
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Quicksand', cursive;
 }
 
 html, body {
@@ -18,8 +19,19 @@ body {
 }
 
 #side-bar {
-    background-color: yellow;
+    background-color: #20202c;
     flex: 2;
+}
+
+#side-bar > .flex-column {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
 }
 
 #main {
@@ -36,4 +48,60 @@ body {
 #right-menu {
     background-color: red;
     flex: 1;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+aside>p{
+    flex: 1;
+}
+aside>header{
+    background-color: #50505c;
+    flex: 9;
+}
+
+aside>div{
+    background-color: black;
+    flex: 6;
+}
+
+.font-padding{
+    padding-top: 8px;
+    text-align: center;
+    color: #93949b;
+}
+
+.test {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: aliceblue;
+    background-color: #20202c;
+}
+
+/*.center {
+    display: flex;
+    flex-direction: column;
+    background-color: #20202c;
+    padding-top: 10px;
+    padding-left: 10px;
+    color:white;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+}*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #20202c;
+    color:#FFFFFF;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #FFFFFF;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 1px;
 }
